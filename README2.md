@@ -5,4 +5,9 @@
 ## Discussion
 In the original example, Test Accuracy = 0.989. I'm trying to change some parameters.
 
-* Through this learning, I have a general understanding of the convolutional neural network. Compared with the 93% accuracy rate of handwriting recognition of SVM, the CNN algorithm greatly reduces the amount of calculation and greatly improves its accuracy. In this case, the accuracy rate of the CNN algorithm can reach 98.9% through only 10 iterations of training. This reflects the advantages of the CNN algorithm and has more advantages for image recognition processing, which greatly expands the application range of the CNN algorithm.
+* To make the model have less cost and more accuracy, i change its weight to see if the result improves.I change the sigma value，Test Accuracy =0.988. Unfortunately, the results didn't get any better. The second time the value of sigma was changed to 0.05, and the Test Accuracy was 0.988, which was also not improved.
+
+* padding: ‘SAME’ or ‘VALID’
+ 
+ 
+ * 池化

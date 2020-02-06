@@ -10,4 +10,4 @@ In the original example, Test Accuracy = 0.989. I'm trying to change some parame
 * padding: ‘SAME’ or ‘VALID’
  
  
- * 池化
+ * max or average pooling

@@ -3,7 +3,7 @@
 
 
 ## Discussion
-In the original example, `Test Accuracy = 0.989`. I'm trying to change some parameters.
+In the original example, Test Accuracy = 0.989. I'm trying to change some parameters.
 
 *` To make the model have less cost and more accuracy, i change its weight to see if the result improves.` When I change the sigma value，  test accuracy =0.988. Unfortunately, the result didn't get any better. The second time the value of sigma was changed to 0.05, and the Test Accuracy was 0.988, which was also not improved.
 

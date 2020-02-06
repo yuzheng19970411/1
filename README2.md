@@ -14,4 +14,4 @@ In the original example, `Test Accuracy = 0.989`. I'm trying to change some para
  conv1 = tf.nn.avg_pool(conv1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID')
 ` The result becomes 0.988.`
 
-To sum up, the accuracy has not changed much.
+To sum up, the accuracy has not changed much. I think there may be other ways to improve accuracy.
